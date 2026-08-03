@@ -13,16 +13,6 @@ RUN THE GAME IN NETBEANS
 2. Select Run Project.
 3. The main class is ca.sheridancollege.project.BlackjackApplication.
 
-RUN FROM A TERMINAL WITH ANT
-1. Open a terminal in this project folder.
-2. Run: ant clean jar
-3. Run: java -jar dist/Usman_Dwyne_Blackjack.jar
-
-RUN THE INCLUDED TESTS
-Compile the source and test folders, then run:
-- ca.sheridancollege.project.BlackjackModelTest
-- ca.sheridancollege.project.ScriptedGameDemo
-
 The model test checks deck size and order, ace values, bust boundaries, pair
 recognition, betting, splitting, and dealer behaviour. The scripted demo runs a
 repeatable full round that includes betting, splitting, hitting, standing,
